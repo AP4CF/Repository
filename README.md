@@ -1,38 +1,44 @@
-# mitigacion-hc
+# mitigation-cf
 
 
-Instalación de ENHSP-20:
+ENHSP-20 Install:
 
-Asegúrate de tener ENHSP-20 instalado en tu sistema. Puedes descargarlo desde aquí: https://sites.google.com/view/enhsp/.
+Ensure You Have ENHSP-20 Installed
+You can download ENHSP-20 from the official site: ENHSP-20.
 
-Archivos Necesarios:
 
-Asegúrate de tener dos archivos:
-domain.pddl: Contiene la definición del dominio mitigacion-hc.
+Required Files:
 
-problem.pddl: Contiene la instancia del problema problem-hc.
+Make sure you have the following two files:
 
-Estructura de Archivos:
+1. domain-cf.pddl: Contains the definition of the domain mitigation-cf.
+2. instance-cf.pddl: Contains the problem instance problem-cf.
 
-Coloca dominioHC.pddl y instanciaHC.pddl en una carpeta accesible desde la línea de comandos.
-Ejecución desde la Terminal:
+File Structure:
+Place domain-cf.pddl and instance-cf.pddl in a folder that is accessible from the command line.
 
-Abre una terminal o línea de comandos en tu sistema operativo.
 
-Dentro del directorio ENHSP-20:
-Utiliza el siguiente comando para ejecutar ENHSP-20 con los archivos PDDL:
-Comando de Ejecución:
+Running ENHSP-20 from the Terminal:
 
- `java -jar enhsp-dist/enhsp.jar -o /ruta/a/domain.pddl  -f /ruta/a/problem.pddl`
+1. Open a terminal or command prompt in your operating system.
 
-Reemplaza `/ruta/a/domain.pddl` y `/ruta/a/problem.pddl` con las rutas donde tengas almacenados los archivos dominioHC.pddl y instanciaHC.pddl, respectivamente.
+2. Navigate to the ENHSP-20 directory.
 
-El comando quedaría de la siguiente manera (Ejemplo):
- `java -jar enhsp-dist/enhsp.jar  -o /3-actions_1-object/dominioHC.pddl -f /3-actions_1-object/instanciaHC.pddl`
+3. Use the following command to execute ENHSP-20 with the PDDL files:
 
-Espera a la Solución:
+Execution Command:
 
-ENHSP-20 comenzará a planificar una solución basada en los criterios de minimización del presupuesto total utilizado, conforme a las metas de reducción de emisiones especificadas en el problema.
-Interpretación del Resultado:
+ `java -jar enhsp-20.jar -o /path/to/domain-cf.pddl -f /path/to/instance-cf.pddl`
 
-Una vez que ENHSP-20 haya completado la planificación, mostrará en la salida estándar el plan generado para alcanzar los objetivos del problema problem-hc utilizando el dominio mitigacion-hc.
+Replace /path/to/domain-cf.pddl and /path/to/instance-cf.pddl with the actual paths where your domain-cf.pddl and instance-cf.pddl files are stored.
+
+The command would look like this (Example):
+`java -jar enhsp-20.jar -o /3-actions_1-object/domain-cf.pddl -f /3-actions_1-object/instance-cf.pddl`
+
+Waiting for the Solution:
+
+ENHSP-20 will start planning a solution based on the criteria of minimizing the total budget used while achieving the emission reduction goals specified in the problem.
+
+Interpreting the Result:
+
+Once ENHSP-20 completes the planning process, it will display the generated plan in the standard output, showing the sequence of actions required to meet the goals defined in problem-cf using the mitigation-cf domain.
