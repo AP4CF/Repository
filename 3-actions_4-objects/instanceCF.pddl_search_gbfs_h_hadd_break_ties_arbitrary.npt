@@ -1,0 +1,18 @@
+(emission-level coffee)=100.0 (emission-level rice)=90.0 (emission-level corn)=100.0 (emission-level cassava)=70.0 (budget coffee)=2000.0 (budget rice)=2000.0 (budget corn)=2000.0 (budget cassava)=2000.0 (time)=0 
+
+(emission-level coffee)=100.0 (emission-level rice)=90.0 (emission-level corn)=70.0 (emission-level cassava)=70.0 (budget coffee)=2000.0 (budget rice)=2000.0 (budget corn)=1800.0 (budget cassava)=2000.0 (time)=0 
+
+(emission-level coffee)=100.0 (emission-level rice)=60.0 (emission-level corn)=70.0 (emission-level cassava)=70.0 (budget coffee)=2000.0 (budget rice)=1400.0 (budget corn)=1800.0 (budget cassava)=2000.0 (time)=0 
+
+(emission-level coffee)=100.0 (emission-level rice)=60.0 (emission-level corn)=70.0 (emission-level cassava)=40.0 (budget coffee)=2000.0 (budget rice)=1400.0 (budget corn)=1800.0 (budget cassava)=1800.0 (time)=0 
+
+(emission-level coffee)=100.0 (emission-level rice)=60.0 (emission-level corn)=70.0 (emission-level cassava)=10.0 (budget coffee)=2000.0 (budget rice)=1400.0 (budget corn)=1800.0 (budget cassava)=1600.0 (time)=0 
+
+(emission-level coffee)=100.0 (emission-level rice)=60.0 (emission-level corn)=40.0 (emission-level cassava)=10.0 (budget coffee)=2000.0 (budget rice)=1400.0 (budget corn)=1600.0 (budget cassava)=1600.0 (time)=0 
+
+(emission-level coffee)=100.0 (emission-level rice)=60.0 (emission-level corn)=10.0 (emission-level cassava)=10.0 (budget coffee)=2000.0 (budget rice)=1400.0 (budget corn)=1400.0 (budget cassava)=1600.0 (time)=0 
+
+(emission-level coffee)=70.0 (emission-level rice)=60.0 (emission-level corn)=10.0 (emission-level cassava)=10.0 (budget coffee)=1800.0 (budget rice)=1400.0 (budget corn)=1400.0 (budget cassava)=1600.0 (time)=0 
+
+(emission-level coffee)=70.0 (emission-level rice)=30.0 (emission-level corn)=10.0 (emission-level cassava)=10.0 (budget coffee)=1800.0 (budget rice)=800.0 (budget corn)=1400.0 (budget cassava)=1600.0 (time)=0 
+

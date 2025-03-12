@@ -19,10 +19,10 @@
   ) 
    
   (:goal (and
-        (= (emission-level coffee) 80)
-        (= (emission-level rice) 50)
-        (= (emission-level corn) 20)
-        (= (emission-level cassava) 0)
+        (<= (emission-level coffee) 80)
+        (<= (emission-level rice) 50)
+        (<= (emission-level corn) 20)
+        (<= (emission-level cassava) 10)
         )
 
   )

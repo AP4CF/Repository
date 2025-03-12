@@ -13,7 +13,7 @@
   ) 
   
   (:goal (and
-        (= (emission-level coffee) 80))
+        (<= (emission-level coffee) 80))
   )
 
   (:metric minimize (total-budget-used))

@@ -15,8 +15,8 @@
   ) 
   
   (:goal (and
-        (= (emission-level coffee) 80)
-        (= (emission-level rice) 50)
+        (<= (emission-level coffee) 80)
+        (<= (emission-level rice) 50)
         )
   )
 

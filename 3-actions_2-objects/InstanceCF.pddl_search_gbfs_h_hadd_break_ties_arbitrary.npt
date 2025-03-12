@@ -1,0 +1,8 @@
+(emission-level coffee)=100.0 (emission-level rice)=90.0 (budget coffee)=1000.0 (budget rice)=1000.0 (time)=0 
+
+(emission-level coffee)=100.0 (emission-level rice)=60.0 (budget coffee)=1000.0 (budget rice)=900.0 (time)=0 
+
+(emission-level coffee)=70.0 (emission-level rice)=60.0 (budget coffee)=800.0 (budget rice)=900.0 (time)=0 
+
+(emission-level coffee)=70.0 (emission-level rice)=30.0 (budget coffee)=800.0 (budget rice)=800.0 (time)=0 
+

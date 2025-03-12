@@ -19,10 +19,10 @@
   ) 
   
   (:goal (and
-        (= (emission-level palm) 20)
-        (= (emission-level cassava) 15)
+        (<= (emission-level palm) 20)
+        (<= (emission-level cassava) 15)
         (= (emission-level potato) 0)
-        (= (emission-level plantain) 10)
+        (<= (emission-level plantain) 10)
         )
 
   )

@@ -1,0 +1,8 @@
+(emission-level coffee)=85.0 (emission-level potato)=90.0 (emission-level cassava)=80.0 (budget coffee)=6000.0 (budget potato)=7000.0 (budget cassava)=10000.0 (time)=0 
+
+(emission-level coffee)=85.0 (emission-level potato)=20.0 (emission-level cassava)=80.0 (budget coffee)=6000.0 (budget potato)=6900.0 (budget cassava)=10000.0 (time)=0 
+
+(emission-level coffee)=15.0 (emission-level potato)=20.0 (emission-level cassava)=80.0 (budget coffee)=5900.0 (budget potato)=6900.0 (budget cassava)=10000.0 (time)=0 
+
+(emission-level coffee)=15.0 (emission-level potato)=20.0 (emission-level cassava)=20.0 (budget coffee)=5900.0 (budget potato)=6900.0 (budget cassava)=9600.0 (time)=0 
+

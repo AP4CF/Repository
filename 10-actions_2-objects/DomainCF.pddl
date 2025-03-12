@@ -78,4 +78,47 @@
               (increase (total-budget-used) 1000))
   )
 
+  (:action Use_synthetic_nitrogen_fertilizers 
+    :parameters (?c - crop)
+    :precondition (and 
+              (>= (emission-level ?c) 70)
+              (>= (budget ?c) 100))
+    :effect (and
+              (decrease (emission-level ?c) 70)
+              (decrease (budget ?c) 100)  
+              (increase (total-budget-used) 100))
+  )
+
+  (:action Incorporate_agricultural_residues
+    :parameters (?c - crop)
+    :precondition (and 
+              (>= (emission-level ?c) 30)
+              (>= (budget ?c) 500))
+    :effect (and
+              (decrease (emission-level ?c) 30)
+              (decrease (budget ?c) 500)  
+              (increase (total-budget-used) 500))
+  )
+
+  (:action Incorporate_organic_compost
+    :parameters (?c - crop)
+    :precondition (and 
+              (>= (emission-level ?c) 30)
+              (>= (budget ?c) 200))
+    :effect (and
+              (decrease (emission-level ?c) 30)
+              (decrease (budget ?c) 200)  
+              (increase (total-budget-used) 200))
+  )
+
+  (:action Use_alternative_energy
+    :parameters (?c - crop)
+    :precondition (and 
+              (>= (emission-level ?c) 30)
+              (>= (budget ?c) 800))
+    :effect (and
+              (decrease (emission-level ?c) 30)
+              (decrease (budget ?c) 800)  
+              (increase (total-budget-used) 800))
+  )
 )

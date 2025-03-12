@@ -10,26 +10,26 @@
     (total-budget-used)
   )
 
-  (:action Incorporate_organic_fertilizer
+  (:action Incorporate_organic_compost
     :parameters (?c - crop)
     :precondition (and 
-              (>= (emission-level ?c) 20)
-              (>= (budget ?c) 500)
-              (<  (budget ?c) 1000)
+              (>= (emission-level ?c) 30)
+              (>= (budget ?c) 200)
+              ; (<  (budget ?c) 1000)
               )
     :effect (and
-              (decrease (emission-level ?c) 20)
-              (decrease (budget ?c) 500) 
-              (increase (total-budget-used) 500))
+              (decrease (emission-level ?c) 30)
+              (decrease (budget ?c) 200) 
+              (increase (total-budget-used) 200))
   ) 
 
   (:action Incorporate_combined_tillage
     :parameters (?c - crop)
     :precondition (and 
-              (>= (emission-level ?c) 10)
+              (>= (emission-level ?c) 30)
               (>= (budget ?c) 100))
     :effect (and
-              (decrease (emission-level ?c) 10)
+              (decrease (emission-level ?c) 30)
               (decrease (budget ?c)  100)   
               (increase (total-budget-used) 100))
   )
@@ -37,12 +37,12 @@
   (:action Intercrop_crops
     :parameters (?c - crop)
     :precondition (and 
-              (>= (emission-level ?c) 50)
-              (>= (budget ?c) 300))
+              (>= (emission-level ?c) 30)
+              (>= (budget ?c) 600))
     :effect (and
-              (decrease (emission-level ?c) 50)
-              (decrease (budget ?c) 300)  
-              (increase (total-budget-used) 300))
+              (decrease (emission-level ?c) 30)
+              (decrease (budget ?c) 600)  
+              (increase (total-budget-used) 600))
   )
 
 )
