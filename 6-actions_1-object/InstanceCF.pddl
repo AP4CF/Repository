@@ -13,7 +13,7 @@
   ) 
   
   (:goal (and
-        (<= (emission-level palm) 20)
+        (<= (emission-level palm) 10)
         )
   )
 
