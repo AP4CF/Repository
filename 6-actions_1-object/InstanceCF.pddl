@@ -13,7 +13,7 @@
   ) 
   
   (:goal (and
-        (<= (emission-level palm) 10)
+        (<= (emission-level coffee) 10)
         )
   )
 
