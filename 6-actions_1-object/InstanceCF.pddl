@@ -3,11 +3,11 @@
   (:domain mitigation-cf)
 
   (:objects
-    palm - crop
+    coffee - crop
   )
 
   (:init
-    (= (emission-level palm) 70)
+    (= (emission-level coffee) 70)
     (= (budget palm) 6000)
     (= (total-budget-used) 0)
   ) 
