@@ -8,7 +8,7 @@
 
   (:init
     (= (emission-level coffee) 70)
-    (= (budget palm) 6000)
+    (= (budget coffee) 6000)
     (= (total-budget-used) 0)
   ) 
   
