@@ -10,7 +10,7 @@
     (total-budget-used)
   )
 
-  (:action Incorporate_organic_fertilizer
+  (:action Apply_organic_fertilizer
     :parameters (?c - crop)
     :precondition (and 
               (>= (emission-level ?c) 20)
