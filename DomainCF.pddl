@@ -38,11 +38,11 @@
     :parameters (?c - crop)
     :precondition (and 
               (>= (emission-level ?c) 50)
-              (>= (budget ?c) 300))
+              (>= (budget ?c) 600))
     :effect (and
               (decrease (emission-level ?c) 50)
-              (decrease (budget ?c) 300)  
-              (increase (total-budget-used) 300))
+              (decrease (budget ?c) 600)  
+              (increase (total-budget-used) 600))
   )
 
 
